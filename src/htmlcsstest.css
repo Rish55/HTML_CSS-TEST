@@ -1,0 +1,114 @@
+*{
+  transition: 0.3s all ease;
+}
+body
+{
+  padding: 0;
+  margin: 0;
+}
+.section1 
+{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.buttons 
+{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.buttons button 
+{
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  padding: 25px;
+  border: 1px double #2c2c35;
+}
+.circle 
+{
+  width: 15px;
+  height: 15px;
+  background-color: #808085;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+.circle_container /* Triple zero on top */
+{
+  display: flex;
+  padding: 5px;
+}
+.yellow:hover
+{
+  cursor: pointer;
+  background-color: #e68c06;
+}
+.dark:hover
+{
+  cursor: pointer;
+  background-color: #33333b;
+}
+.grey:hover
+{
+  cursor: pointer;
+  background-color: #58585e;
+}
+.display p          /* Display Screen */
+{
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+.large 
+{
+  grid-column: 1 / span 2;
+}
+.yellow 
+{
+  background-color: #ff9f0b;
+}
+.dark 
+{
+  background-color: #424249;
+}
+.grey 
+{
+  background-color: #606067;
+}
+.lr 
+{
+  border-radius: 10px 0px 0px 0px;
+}
+.rr 
+{
+  border-radius: 0px 10px 0px 0px;
+}
+.br 
+{
+  border-radius: 0px 0px 10px 0px;
+}
+.bl 
+{
+  border-radius: 0px 0px 0px 10px;
+}
+.display 
+{
+  height: 120px;
+  background-color: #2d2d36;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.down 
+{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: end;
+}
+
